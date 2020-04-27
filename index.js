@@ -9,7 +9,8 @@ person.name = 'Harjot';
 
 // Bracket Notation
 
-
+let selection = 'name';
+person[selection] = 'Gopiinho';
 
  
 console.log(person.name);
