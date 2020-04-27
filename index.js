@@ -1,3 +1,5 @@
+/*
+
 let person = {
     name: 'Gopi',
     age:  '30'
@@ -12,5 +14,8 @@ person.name = 'Harjot';
 let selection = 'name';
 person[selection] = 'Gopiinho';
 
- 
-console.log(person.name);
+*/
+
+let selectedColours = ['red', 'green'];
+ selectedColours[2] = 1
+console.log(selectedColours);
